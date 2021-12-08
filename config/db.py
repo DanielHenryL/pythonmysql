@@ -50,7 +50,7 @@ MYSQL = {
         'NAME': 'db',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'db',
+        'HOST': 'localhost',
         'PORT': '3307',
         'OPTIONS': {
             'sql_mode': 'traditional',
