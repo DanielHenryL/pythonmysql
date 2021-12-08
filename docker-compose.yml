@@ -10,7 +10,7 @@ services:
       MYSQL_PASSWORD: 
       MYSQL_ROOT_PASSWORD: root
     volumes:
-      - .dbdata:/var/run/mysqld/mysqld.sock
+      - .dbdata:/run/mysqld/mysqld.sock
     ports:
       - 33066:3307
   web:
